@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gunjan Rani | Full Stack Developer & AI/ML Engineer</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">GR<span class="dot">.</span></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hire-btn" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Hire Me</button>
+    <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-left">
+      <div class="hero-badge">👋 Available for Work</div>
+      <h1>Hi, I'm<br><span class="name-highlight">Gunjan Rani</span></h1>
+      <div class="typed-wrap">
+        <span id="typed"></span><span class="cursor-blink">|</span>
+      </div>
+      <p class="hero-desc">
+        Full Stack Developer & AI/ML Engineer building intelligent web applications.
+        MCA student at MIET Meerut with 2 internships and 4+ live projects.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="https://github.com/gunnu1106" target="_blank" class="btn-ghost">GitHub ↗</a>
+      </div>
+      <div class="hero-stats">
+        <div class="h-stat"><span class="h-num">4+</span><span class="h-label">Projects</span></div>
+        <div class="h-divider"></div>
+        <div class="h-stat"><span class="h-num">2</span><span class="h-label">Internships</span></div>
+        <div class="h-divider"></div>
+        <div class="h-stat"><span class="h-num">8+</span><span class="h-label">Certifications</span></div>
+        <div class="h-divider"></div>
+        <div class="h-stat"><span class="h-num">1</span><span class="h-label">Award 🏆</span></div>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="photo-wrap">
+        <div class="photo-ring"></div>
+        <div class="photo-circle">
+          <img src="photo.jpg" alt="Gunjan Rani" onerror="this.style.display='none'; document.getElementById('initials').style.display='flex'"/>
+          <div id="initials" class="initials-fallback">GR</div>
+        </div>
+        <div class="floating-card fc1">
+          <span class="fc-icon">🏆</span>
+          <span class="fc-text">Best Project Award 2024</span>
+        </div>
+        <div class="floating-card fc2">
+          <span class="fc-icon">🤖</span>
+          <span class="fc-text">AI/ML Developer</span>
+        </div>
+        <div class="floating-card fc3">
+          <span class="fc-icon">⚡</span>
+          <span class="fc-text">Open to Work</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-tag">About Me</div>
+      <h2 class="section-title">Who I Am</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm a <strong>Full Stack Developer</strong> and <strong>AI/ML Engineer</strong> with hands-on experience building web applications and intelligent systems. Currently pursuing MCA at MIET Meerut, AKTU (2026).</p>
+          <p>I've interned at <strong>Midaslogix Infotech</strong> (Web Development) and <strong>Soft Skill Infotech</strong> (Python Development), where I built real-world applications for clients.</p>
+          <p>My AI Resume Matcher project won the <strong>Best Project Award 2024</strong> at my college tech showcase — recognized for innovative design and 85% NLP accuracy.</p>
+          <p>I love combining my frontend skills with AI/ML expertise to create data-driven web applications that solve real problems.</p>
+          <div class="about-tags">
+            <span>Problem Solver</span><span>Quick Learner</span>
+            <span>Team Player</span><span>Detail Oriented</span>
+          </div>
+        </div>
+        <div class="about-info">
+          <div class="info-row"><span class="info-key">Name</span><span class="info-val">Gunjan Rani</span></div>
+          <div class="info-row"><span class="info-key">Degree</span><span class="info-val">MCA — MIET Meerut (2026)</span></div>
+          <div class="info-row"><span class="info-key">Location</span><span class="info-val">Meerut, U.P., India</span></div>
+          <div class="info-row"><span class="info-key">Email</span><span class="info-val">gunnugunjan582@gmail.com</span></div>
+          <div class="info-row"><span class="info-key">Available</span><span class="info-val" style="color:#4ade80">Open to Work ✓</span></div>
+          <div class="info-row"><span class="info-key">Work Type</span><span class="info-val">Remote / Hybrid / On-site</span></div>
+          <a href="Gunjan_Rani_Final_Resume.pdf" download class="download-cv">⬇ Download Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="section-tag">My Skills</div>
+      <h2 class="section-title">What I Work With</h2>
+      <div class="skills-grid">
+
+        <div class="skill-box">
+          <div class="skill-box-icon">🌐</div>
+          <h3>Frontend Development</h3>
+          <div class="skill-pills">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript ES6+</span>
+            <span>Bootstrap</span><span>Responsive Design</span>
+            <span>DOM Manipulation</span><span>CSS Animations</span>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-box-icon">⚙️</div>
+          <h3>Backend Development</h3>
+          <div class="skill-pills">
+            <span>Python</span><span>Flask</span><span>REST APIs</span>
+            <span>OOP</span><span>Postman</span>
+            <span>Session Auth</span><span>Git & GitHub</span>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-box-icon">🤖</div>
+          <h3>AI / Machine Learning</h3>
+          <div class="skill-pills">
+            <span>NLP</span><span>TF-IDF</span><span>Cosine Similarity</span>
+            <span>Pandas</span><span>NumPy</span><span>PyTorch</span>
+            <span>Scikit-learn</span>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-box-icon">📊</div>
+          <h3>Data & Databases</h3>
+          <div class="skill-pills">
+            <span>SQL</span><span>MySQL</span><span>MongoDB</span>
+            <span>SQLite</span><span>Power BI</span>
+            <span>Matplotlib</span><span>Seaborn</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-tag">My Work</div>
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card featured">
+          <div class="project-top">
+            <div class="project-emoji">🤖</div>
+            <div class="award-tag">🏆 Best Project Award 2024</div>
+          </div>
+          <h3>AI Resume Matcher</h3>
+          <p>Web app that ranks resumes against job descriptions with 85% accuracy using NLP, TF-IDF and Cosine Similarity. Full responsive web interface built with HTML/CSS/JS + Flask backend.</p>
+          <div class="p-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>Flask</span><span>NLP</span></div>
+          <div class="p-links">
+            <a href="https://github.com/gunnu1106" target="_blank">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top"><div class="project-emoji">📋</div></div>
+          <h3>TaskFlow — OOP Task Manager</h3>
+          <p>Full-featured JavaScript task manager using OOP class design. LocalStorage persistence, real-time search, priority filters, and progress tracker.</p>
+          <div class="p-tags"><span>JavaScript</span><span>OOP</span><span>CSS3</span><span>LocalStorage</span></div>
+          <div class="p-links">
+            <a href="https://github.com/gunnu1106/task-manager-oop" target="_blank">GitHub ↗</a>
+            <a href="https://gunnu1106.github.io/task-manager-oop" target="_blank">Live ↗</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top"><div class="project-emoji">⛅</div></div>
+          <h3>WeatherNow Dashboard</h3>
+          <p>Live weather dashboard with 5-day forecast, 24-hour chart, and real-time data from OpenWeatherMap API. Built with async JavaScript and Chart.js.</p>
+          <div class="p-tags"><span>JavaScript</span><span>APIs</span><span>Chart.js</span><span>Async/Await</span></div>
+          <div class="p-links">
+            <a href="https://github.com/gunnu1106/weather-dashboard" target="_blank">GitHub ↗</a>
+            <a href="https://gunnu1106.github.io/weather-dashboard" target="_blank">Live ↗</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top"><div class="project-emoji">💹</div></div>
+          <h3>SalesIQ — Analytics Dashboard</h3>
+          <p>Interactive sales dashboard with multi-view navigation, KPI cards, Chart.js visualizations, quarter filters, and CSV export feature.</p>
+          <div class="p-tags"><span>JavaScript</span><span>Chart.js</span><span>OOP</span><span>Power BI</span></div>
+          <div class="p-links">
+            <a href="https://github.com/gunnu1106/sales-dashboard" target="_blank">GitHub ↗</a>
+            <a href="https://gunnu1106.github.io/sales-dashboard" target="_blank">Live ↗</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top"><div class="project-emoji">🎓</div></div>
+          <h3>Student Result Dashboard</h3>
+          <p>Secure student portal with session-based login, dynamic result display, and JavaScript form validation. Flask + SQLite backend with RESTful routing.</p>
+          <div class="p-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Flask</span><span>SQLite</span></div>
+          <div class="p-links">
+            <a href="https://github.com/gunnu1106" target="_blank">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top"><div class="project-emoji">📈</div></div>
+          <h3>Sales Data Analysis</h3>
+          <p>Python-based EDA on large sales dataset. Identified top products, seasonal trends, and customer segments. Visualized with Power BI interactive dashboards.</p>
+          <div class="p-tags"><span>Python</span><span>Pandas</span><span>Power BI</span><span>Matplotlib</span></div>
+          <div class="p-links">
+            <a href="https://github.com/gunnu1106" target="_blank">GitHub ↗</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="certs">
+    <div class="container">
+      <div class="section-tag">Credentials</div>
+      <h2 class="section-title">Certifications</h2>
+      <div class="certs-grid">
+        <div class="cert-card"><div class="cert-icon">🌐</div><div class="cert-name">Web Development Bootcamp</div><div class="cert-issuer">Udemy</div></div>
+        <div class="cert-card"><div class="cert-icon">🗄️</div><div class="cert-name">SQL for Data Science</div><div class="cert-issuer">UC Davis · Coursera</div></div>
+        <div class="cert-card"><div class="cert-icon">☁️</div><div class="cert-name">AWS Cloud Foundations</div><div class="cert-issuer">AWS Academy</div></div>
+        <div class="cert-card"><div class="cert-icon">🔵</div><div class="cert-name">DSA in Java</div><div class="cert-issuer">Coding Ninjas</div></div>
+        <div class="cert-card"><div class="cert-icon">🟡</div><div class="cert-name">IT Support Fundamentals</div><div class="cert-issuer">Google</div></div>
+        <div class="cert-card"><div class="cert-icon">🐍</div><div class="cert-name">Python Programming</div><div class="cert-issuer">Soft Skill Infotech</div></div>
+        <div class="cert-card"><div class="cert-icon">🌐</div><div class="cert-name">Networking Fundamentals</div><div class="cert-issuer">Cisco</div></div>
+        <div class="cert-card"><div class="cert-icon">📊</div><div class="cert-name">Excel</div><div class="cert-issuer">Udemy</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-tag">Get In Touch</div>
+      <h2 class="section-title">Let's Work Together</h2>
+      <p class="contact-sub">Open to Frontend Developer, Web Developer, AI/ML, and Data Analyst roles — Remote or Pan India.</p>
+      <div class="contact-grid">
+        <div class="contact-cards">
+          <a href="mailto:gunnugunjan582@gmail.com" class="contact-card">
+            <span class="cc-icon">📧</span>
+            <div><div class="cc-label">Email</div><div class="cc-val">gunnugunjan582@gmail.com</div></div>
+          </a>
+          <a href="tel:+919119052580" class="contact-card">
+            <span class="cc-icon">📱</span>
+            <div><div class="cc-label">Phone</div><div class="cc-val">+91 9119052580</div></div>
+          </a>
+          <a href="https://linkedin.com/in/gunjan-singh-014906245" target="_blank" class="contact-card">
+            <span class="cc-icon">💼</span>
+            <div><div class="cc-label">LinkedIn</div><div class="cc-val">gunjan-singh-014906245</div></div>
+          </a>
+          <a href="https://github.com/gunnu1106" target="_blank" class="contact-card">
+            <span class="cc-icon">🐙</span>
+            <div><div class="cc-label">GitHub</div><div class="cc-val">github.com/gunnu1106</div></div>
+          </a>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <input type="text" placeholder="Your Name" required/>
+          <input type="email" placeholder="Your Email" required/>
+          <input type="text" placeholder="Subject"/>
+          <textarea placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit">Send Message →</button>
+          <div class="form-msg" id="formMsg">✓ Message sent! I'll get back to you soon.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">GR<span class="dot">.</span></div>
+      <p>Designed & Built by <strong>Gunjan Rani</strong> · 2025</p>
+      <p style="margin-top:4px;font-size:0.8rem;opacity:0.5">Full Stack Developer · AI/ML Engineer · Open to Work</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
